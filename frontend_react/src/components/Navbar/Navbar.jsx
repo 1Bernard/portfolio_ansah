@@ -22,15 +22,15 @@ const Navbar = () => {
               ))}
           </ul>
 
-          <div className="app__navbar-menu">
-              <HiMenuAlt4 onClick={() => setToggle(true)} />
+          <div className="app__navbar-menu" >
+              <HiMenuAlt4 onClick={() => setToggle((prev) => !prev)} />
 
               {toggle && (
                   <motion.div
-                      whileInView={{ x: [300, 0] }}
+                      whileInView={{ x: [-300, 0] }}
                       transition={{duration: 0.85, ease: 'easeOut'}}
                   >
-                      <HiX onClick={() => setToggle(false)} />
+                      <HiX onClick={() => setToggle((prev) => !prev)} />
                       <ul>   
                       {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
                     <li key={item}>

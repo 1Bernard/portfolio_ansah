@@ -29,7 +29,7 @@ const Skills = () => {
   return (
     <>
       <h2 className="head-text" style={{ fontWeight: 'bolder' }}>
-        Skills And Experience
+        <span>Skills</span> & Experience
       </h2>
 
       <div className="app__skills-container">

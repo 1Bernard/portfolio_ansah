@@ -19,11 +19,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text" style={{ fontWeight: 'bolder' }}>
-        I Know That
-        <span> Good Apps </span>
-        <br />
-        mean
-        <span> Good Business </span>
+        <span> About </span> me
       </h2>
 
       <div className="app__profiles">

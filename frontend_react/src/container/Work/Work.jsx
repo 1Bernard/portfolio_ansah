@@ -41,9 +41,7 @@ const Work = () => {
   return (
     <>
        <h2 className="head-text" style={{ fontWeight: 'bolder' }}>
-        My Creative
-        <span> Portfolio </span>
-        Section
+        My <span> Portfolio </span>
       </h2>
       <div className="app__work-filter">
         {['All', 'DApp', 'Game', 'Mobile App', 'UI/UX', 'Web App'].map((item, index) => (
